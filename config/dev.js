@@ -1,6 +1,6 @@
 module.exports = {
-    mongoURI: 'mongodb://localhost:27017/Forum',
-    // mongoURI: 'mongodb+srv://saeedahmed786:Rais5793@cluster0.jlpfi.mongodb.net/Forum?retryWrites=true&w=majority',
+    // mongoURI: 'mongodb://localhost:27017/Forum',
+    mongoURI: 'mongodb+srv://saeedahmed786:Rais5793@cluster0.jlpfi.mongodb.net/Forum?retryWrites=true&w=majority',
     jwtSecret: 'kdjkasjqr8239r8kfj9390239tfkeit049igkjkvjvw049t09tofjkwrjt034tigdfkjgkdfjg0rt9304fsdkfj04t904gigo',
     jwtExpire: '24h',
     accountId: 'AC1eb4cd0e53732546771efedbb1e08d7c',
