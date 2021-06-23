@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const { jwtSecret } = require('../config/keys');
+const { jwtSecret } = require('../config/dev');
 
 AuthenticatorJWT = (req, res, next) => {
     const tokenWithBearer = req.headers.authorization;
